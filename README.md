@@ -1,2 +1,2 @@
 # TFG-Classification-Model-CustomDataset
-Modelo de clasificación en Tensorflow y Keras sobre un Dataset propio. 
+Creación en Tensorflow de un modelo de clasificación sobre un Dataset propio. 
