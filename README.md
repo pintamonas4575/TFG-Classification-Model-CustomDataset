@@ -4,7 +4,7 @@ Creación en Tensorflow de un modelo de clasificación sobre un Dataset propio.
 
 Se ha creado tanto un modelo propio desde cero, como hecho _fine tuning_ al modelo de EfficientNetB2 proporcionado por Keras.
 
-Se irá actualizando un ***readme.md*** en cada notebook para explicar el mismo
+Se irá actualizando un ***readme.md*** en cada notebook para explicar el mismo.
 
 ----------------------
 
@@ -15,27 +15,32 @@ Para usar la GPU en Windows nativo se necesita:
 - Drivers de CUDA -> versión 11.x
 - cuDNN -> versión 8.x
 
-**NOTA:** Previamente se debe tener un dataset local que conste de imágenes repartidas en las clases que se deseen clasificar. 
+**NOTA1:** Previamente se debe tener un dataset local que conste de imágenes repartidas en las clases que se deseen clasificar. 
 
-Cualquier duda o sugerencia contactar con el autor:
-
-Alejandro Mendoza: alejandro.embi@gmail.com
+**NOTA2:** Se debe tener en cuenta que se deberán de ajustar todos los paths para el correcto funcionamiento de los notebooks.
 
 <!--Markdown-->
-<span style="color:red">Por qué no sale en rojo en GitHub</span>
+<span style="color:red">No sale en rojo en GitHub.</span>
 
 ```bash
 function test() {
-  console.log("notice the blank line before this function?");
+  print("Código copiable")
 }
 ```
+# Carpeta *utils*
+En esta carpeta se encuentra un notebook para "reciclar" el dataset. 
 
-Sigue el texto
-
-```diff
+<!-- ```diff
 - text in red
 + text in green
 ! text in orange
 # text in gray
 @@ text in purple (and bold)@@
-```
+``` -->
+
+# Contacto
+
+Cualquier duda o sugerencia contactar con el autor:
+
+Alejandro Mendoza: alejandro.embi@gmail.com
+
