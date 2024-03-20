@@ -4,6 +4,8 @@ Creación en Tensorflow de un modelo de clasificación sobre un Dataset propio.
 
 Se ha creado tanto un modelo propio desde cero, como hecho _fine tuning_ al modelo de EfficientNetB2 proporcionado por Keras.
 
+Se irá actualizando un ***readme.md*** en cada notebook para explicar el mismo
+
 ----------------------
 
 Para usar la GPU en Windows nativo se necesita:
@@ -19,5 +21,16 @@ Cualquier duda o sugerencia contactar con el autor:
 
 Alejandro Mendoza: alejandro.embi@gmail.com
 
+Markdown
+<span style="color:red">Este texto está en rojo</span>
+
+<!--HTML-->
+<p style="color:red">Este texto está en rojo</p>
+
 ```bash
-echo "Hola, mundo!"
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+
+ddd
