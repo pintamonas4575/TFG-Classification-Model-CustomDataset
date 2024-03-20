@@ -21,11 +21,8 @@ Cualquier duda o sugerencia contactar con el autor:
 
 Alejandro Mendoza: alejandro.embi@gmail.com
 
-Markdown
-<span style="color:red">Este texto está en rojo</span>
-
-<!--HTML-->
-<p style="color:red">Este texto está en rojo</p>
+<!--Markdown-->
+<span style="color:red">Por qué no sale en rojo en GitHub</span>
 
 ```bash
 function test() {
@@ -33,4 +30,12 @@ function test() {
 }
 ```
 
-ddd
+Sigue el texto
+
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
