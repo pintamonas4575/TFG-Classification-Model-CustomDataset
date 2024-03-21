@@ -44,7 +44,8 @@ Si se quisiera reentrenar/probar alguno de los modelos, sepa el lector que se ha
 
 Abyssinian, American Curl, American Shorthair, Bengal, Birman, Bobtail, Bombay, British Shorthair, Burmilla, Calico, Egyptian Mau, Exotic Shorthair, Ginger, Khao Manee, Maine Coon, Manx, Munchkin, Nebelung, Norwegian Forest, Persian, Ragdoll, Rex, Russian Blue, Scottish Fold, Siamese, Snowshoe, Sphynx, Tabby, Tortoishell, Turkish Angora y Tuxedo.
 
-Con otro tipo de clases no predecirá correctamente
+Con otro tipo de clases (flores, coches...) no predecirá correctamente.
+
 ☣️☣️
 
 # 📂 Carpeta *"fotos"*
