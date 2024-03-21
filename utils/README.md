@@ -5,7 +5,7 @@ Este archivo consta de 2 partes:
 
 Este método cuenta con flexibilidad, de modo que solo es necesario cambiar el nombre del dataset a manipular y la ruta de sus 3 particiones (Trainig, Validation y Testing).
 
-Se espera que su estructura sea:
+Se espera que la estructura del dataset sea la siguiente:
 
 ```bash
 📂Nombre dataset    
