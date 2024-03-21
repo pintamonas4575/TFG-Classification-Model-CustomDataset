@@ -23,13 +23,13 @@ Para usar la GPU en Windows nativo se necesita:
 
 Notebook de creación, entrenamiento y pruebas de un modelo propio que obtiene un **60%** de **accuracy** en **test**.
 
-Las imágenes que se quieran predecir manualmente deben ser de 224x224.
+Las imágenes que se quieran predecir manualmente deben ser redimensionadas a 224x224.
 
 # 📓 Notebook *modelo_EficientNet*
 
 Notebook de creación, entrenamiento y pruebas de un modelo al que se le ha hecho _fine-tuning_ del modelo *EfficientNetB2* que obtiene un **88%** de **accuracy** en **test**.
 
-Las imágenes que se quieran predecir manualmente deben ser de 224x224.
+Las imágenes que se quieran predecir manualmente deben ser redimensionadas a 224x224.
 
 # 📂 Carpeta *"utils"*
 En esta carpeta se encuentra un archivo para **"reciclar"** el dataset con descripción detallada.
