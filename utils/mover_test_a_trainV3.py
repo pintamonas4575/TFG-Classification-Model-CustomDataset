@@ -5,33 +5,33 @@ import shutil
 
 directorio = "cats20_probarV2"
 
-dir_train = f"../{directorio}/TRAINING"
-dir_val = f"../{directorio}/VALIDATION"
-dir_test = f"../{directorio}/TESTING"
+dir_train = f"{directorio}/Training"
+dir_val = f"{directorio}/Validation"
+dir_test = f"{directorio}/Testing"
 
-lista_razas_train = os.listdir(dir_train)
-lista_razas_val = os.listdir(dir_val)
-lista_razas_test = os.listdir(dir_test)
+lista_razas = os.listdir(dir_train)
+
+# Ejecutar solo para crear las clases en 'validation' y 'testing'
+# for raza in lista_razas:
+#     os.mkdir(f'{dir_val}/{raza}')
+#     os.mkdir(f'{dir_test}/{raza}')
 
 #--------------------------------MOVER TODAS LAS FOTOS DE TESTING Y VALIDATION A TRAINING--------------------------------#
-# mover de TESTING a TRAINING
-# hecho con índices, para que al mover no
-# se tengan que llamar las dos carpetas iguales
-# **tiene que haber carpeta pero puede estar vacía**
-for i in range(len(lista_razas_train)):
-    nombres_fotos_test = os.listdir(f'{dir_test}/{lista_razas_test[i]}')
-    nombres_fotos_val = os.listdir(f'{dir_val}/{lista_razas_test[i]}')
+for raza in lista_razas:
+    nombres_fotos_test = os.listdir(f'{dir_test}/{raza}')
+    nombres_fotos_val = os.listdir(f'{dir_val}/{raza}')
     for foto_a_mover in nombres_fotos_test:
-        shutil.move(src=f'{dir_test}/{lista_razas_test[i]}/{foto_a_mover}', dst=f'{dir_train}/{lista_razas_train[i]}')
-    os.rmdir(f'{dir_test}/{lista_razas_test[i]}')
+        shutil.move(src=f'{dir_test}/{raza}/{foto_a_mover}', dst=f'{dir_train}/{raza}')
+    os.rmdir(f'{dir_test}/{raza}')
     for foto_a_mover in nombres_fotos_val:
-        shutil.move(src=f'{dir_val}/{lista_razas_test[i]}/{foto_a_mover}', dst=f'{dir_train}/{lista_razas_train[i]}')
-    os.rmdir(f'{dir_val}/{lista_razas_test[i]}')
+        shutil.move(src=f'{dir_val}/{raza}/{foto_a_mover}', dst=f'{dir_train}/{raza}')
+    os.rmdir(f'{dir_val}/{raza}')
+
 print('TODO MOVIDO A TRAINING')
 #--------------------------------MOVER TODAS LAS FOTOS DE TESTING Y VALIDATION A TRAINING--------------------------------#
 
 #--------------------------------MOVER 10% FOTOS A TESTING Y 20% A VALIDATION--------------------------------#
-for raza in lista_razas_train:
+for raza in lista_razas:
     os.mkdir(f'{dir_val}/{raza}')
     os.mkdir(f'{dir_test}/{raza}')
     nombres_fotos = os.listdir(f'{dir_train}/{raza}')

@@ -19,24 +19,12 @@ Para usar la GPU en Windows nativo se necesita:
 
 **NOTA2:** Se debe tener en cuenta que se deberán de ajustar todos los paths para el correcto funcionamiento de los notebooks.
 
-<!--Markdown-->
-<span style="color:red">No sale en rojo en GitHub.</span>
+# Notebook *modelo_propio*
 
-```bash
-function test() {
-  print("Código copiable")
-}
-```
+Notebook de creación, entrenamineto y pruebas de un modelo propio y el archivo ***.keras*** que obtiene un **60%** de **accuracy** en **test**.
+
 # Carpeta *utils*
-En esta carpeta se encuentra un notebook para "reciclar" el dataset. 
-
-<!-- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-``` -->
+En esta carpeta se encuentra un archivo para **"reciclar"** el dataset con descripción detallada. 
 
 # Contacto
 
