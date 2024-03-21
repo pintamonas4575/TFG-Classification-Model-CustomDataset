@@ -33,7 +33,6 @@ Se espera que su estructura sea:
     │   └── ...           
     ├── 📂Clase2         
     └── ...
-
 ```
 
 ⚠️ Se recuerda la necesidad de cambiar los paths del dataset en el notebook. ⚠️
