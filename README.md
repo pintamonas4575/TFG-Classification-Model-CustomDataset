@@ -15,7 +15,7 @@ Para usar la GPU en Windows nativo se necesita:
 - Drivers de CUDA -> versión 11.x
 - cuDNN -> versión 8.x
 
-**NOTA1:** Previamente se debe tener un dataset local que conste de imágenes repartidas en las clases que se deseen clasificar. Para saber sobre la estructura del dataset, consultar el _readme.md_ de la carpeta _'utils'_
+**NOTA1:** Previamente se debe tener un dataset local que conste de imágenes repartidas en las clases que se deseen clasificar. Para saber sobre la estructura del dataset, consultar el _readme.md_ de la carpeta _'utils'_.
 
 **NOTA2:** Se debe tener en cuenta que se deberán de ajustar todos los paths para el correcto funcionamiento de los notebooks.
 
