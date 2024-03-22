@@ -8,12 +8,14 @@ Se ha creado tanto un modelo propio desde cero, como hecho _fine-tuning_ al mode
 
 ----------------------
 
-Para usar la GPU en Windows nativo se necesita:
+Para usar la GPU en **Windows nativo** se necesita:
 
 - Python -> versión 3.10
 - Tensorflow -> versión 2.9 (en la 2.10 hay un error irreparable que no deja guardar el modelo creado, no se puede hacer *'model.save'*)
 - Drivers de CUDA -> versión 11.x
 - cuDNN -> versión 8.x
+
+Consultar [Tensorflow Compatibilidad con GPU](https://www.tensorflow.org/install/gpu?hl=es-419) (hasta la sección "Requisitos de software") para más info.
 
 **NOTA1:** Previamente se debe tener un dataset local que conste de imágenes repartidas en las clases que se deseen clasificar. Para saber sobre la estructura del dataset, consultar el _readme.md_ de la carpeta _'utils'_.
 
@@ -50,10 +52,10 @@ Con otro tipo de clases (flores, coches...) no predecirá correctamente.
 
 # 📂 Carpeta *"fotos"*
 
-Se propircionan imágenes para probar predicciones manualmente.
+Se proporcionan imágenes para realizar predicciones manualmente.
 
 # ⚖️ Licencia 
-Ya podría ser la burocracia de España igual de rápida que obtener la licencia de Github. 
+Ya podría ser la burocracia de España igual de rápida que obtener la licencia del repositorio. 
 
 # 👤 Contacto
 
