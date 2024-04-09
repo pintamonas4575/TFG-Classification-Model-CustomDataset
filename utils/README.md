@@ -1,3 +1,4 @@
+# Archivo _mover_test_a_train_
 Este archivo consta de 2 partes:
 
 - Sección superior: Traslada todas las fotos que haya en los subsets de 'Testing' y 'Validation' a 'Training'.
@@ -36,3 +37,6 @@ Se espera que la estructura del dataset sea la siguiente:
 ```
 
 ⚠️ Se recuerda la necesidad de cambiar los paths del dataset en el notebook. ⚠️
+
+# Archivo _renombrar_imágenes_
+Después de tener todas las imágenes del _dataset_, este archivo las renombra iterativa y automáticamente según el nombre de la carpeta (raza) donde estén. 
