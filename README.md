@@ -49,6 +49,8 @@ Abyssinian, American Curl, American Shorthair, Bengal, Birman, Bobtail, Bombay, 
 
 Con otro tipo de imágenes (flores, coches...) no predecirá correctamente.
 
+NOTA: En las razas ''Calico'' y ''Tortoishell'' se han incluido fotos de sus variantes llamas ''Dilute Calico'' y ''Dilute Tortoishell'' repectivamente.
+
 ☣️☣️
 
 # 📂 Carpeta *"fotos"*
