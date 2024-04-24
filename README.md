@@ -4,7 +4,7 @@ Creación en Tensorflow de un modelo de clasificación sobre un Dataset propio.
 
 Se ha creado tanto un modelo propio desde cero, como hecho _fine-tuning_ al modelo EfficientNetB2 proporcionado por Keras.
 
-🙋‍♂️ Los archivos de este repositorio pertenecen al TFG de Alejandro Mendoza Medina.
+🙋‍♂️ Los archivos de este repositorio pertenecen al **TFG** de **Alejandro Mendoza Medina**.
 
 ----------------------
 
