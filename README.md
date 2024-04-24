@@ -1,6 +1,6 @@
 # TFG-Classification-Model-CustomDataset
 
-Creación en Tensorflow de un modelo de clasificación sobre un Dataset propio. 
+Creación en Tensorflow de 2 modelos de clasificación sobre un Dataset propio. 
 
 Se ha creado tanto un modelo propio desde cero, como hecho _fine-tuning_ al modelo EfficientNetB2 proporcionado por Keras.
 
