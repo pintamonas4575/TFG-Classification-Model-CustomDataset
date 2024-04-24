@@ -55,7 +55,7 @@ Con otro tipo de imágenes (flores, coches...) no predecirá correctamente.
 
 # 📂 Carpeta *"fotos"*
 
-Se proporcionan imágenes para realizar predicciones manualmente.
+Se proporcionan imágenes para realizar predicciones manualmente, pero siéntase libre de coger cualquiera de internet y probar.
 
 # ⚖️ Licencia 
 Ya podría ser la burocracia de España igual de rápida que obtener la licencia del repositorio. 
