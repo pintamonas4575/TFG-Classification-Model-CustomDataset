@@ -39,4 +39,4 @@ Se espera que la estructura del dataset sea la siguiente:
 ⚠️ Se recuerda la necesidad de cambiar los paths del dataset en el notebook. ⚠️
 
 # Archivo _renombrar_imágenes_
-Después de tener todas las imágenes del _dataset_, este archivo las renombra iterativa y automáticamente según el nombre de la carpeta (raza) donde estén. 
+Después de tener todas las imágenes del _dataset_, este archivo las renombra iterativa y automáticamente según el nombre de la carpeta (raza) donde estén. Se deben de tener todas las imágenes en el directorio ''TRAINING''.
