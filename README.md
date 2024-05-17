@@ -30,7 +30,7 @@ Las imágenes que se quieran predecir manualmente deben ser redimensionadas a 22
 
 # 📓 Notebook *modelo_EficientNet*
 
-Notebook de creación, entrenamiento y pruebas de un modelo al que se le ha hecho _fine-tuning_ del modelo *EfficientNetB2* que obtiene un **88%** de **accuracy** en **test**.
+Notebook de creación, entrenamiento y pruebas de un modelo al que se le ha hecho _transfer-learning_ del modelo *EfficientNetB2* que obtiene un **88%** de **accuracy** en **test**.
 
 Las imágenes que se quieran predecir manualmente deben ser redimensionadas a 224x224.
 
