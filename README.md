@@ -12,7 +12,7 @@ Para usar la GPU en **Windows nativo** se necesita:
 
 - Una GPU de tecnología NVIDIA (no son compatibles ni las de AMD ni las de Intel).
 - Python -> versión 3.10
-- Tensorflow -> versión 2.9 (en la 2.10 hay un error irreparable que no deja guardar el modelo creado, no se puede hacer *'model.save'*)
+- Tensorflow -> versión 2.9 (en la 2.10, que es la última compatible con Windows nativo, hay un error irreparable que no deja guardar el modelo creado, no se puede hacer *'model.save'*)
 - Drivers de CUDA -> versión 11.x
 - cuDNN -> versión 8.x
 
