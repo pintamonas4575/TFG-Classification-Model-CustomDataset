@@ -18,9 +18,9 @@ Para usar la GPU en **Windows nativo** se necesita:
 
 Consultar [Tensorflow Compatibilidad con GPU](https://www.tensorflow.org/install/gpu?hl=es-419) (hasta la sección "Requisitos de software") para más info.
 
-**NOTA1:** Previamente se debe tener un dataset local que conste de imágenes repartidas en las clases que se deseen clasificar. Para saber sobre la estructura del dataset, consultar el _readme.md_ de la carpeta _'utils'_.
+**NOTA-1:** Previamente se debe tener un dataset local que conste de imágenes repartidas en las clases que se deseen clasificar. Para saber sobre la estructura del dataset, consultar el _readme.md_ de la carpeta _'utils'_.
 
-**NOTA2:** Se debe tener en cuenta que se deberán de ajustar todos los paths para el correcto funcionamiento de los notebooks.
+**NOTA-2:** Se debe tener en cuenta que se deberán de ajustar todos los paths para el correcto funcionamiento de los notebooks.
 
 # 📓 Notebook *modelo_propio*
 
