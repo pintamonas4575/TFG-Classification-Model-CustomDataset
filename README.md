@@ -34,6 +34,11 @@ Notebook de creación, entrenamiento y pruebas de un modelo al que se le ha hech
 
 Las imágenes que se quieran predecir manualmente deben ser redimensionadas a 224x224.
 
+# 📓 Notebook *modelo_varios_V3*
+
+Notebook que compara algunos modelos de Keras para la elección del modelo con *transfer-learning*.
+
+
 # 📂 Carpeta *"utils"*
 En esta carpeta se encuentra un archivo para **"reciclar"** el dataset con descripción detallada.
 
